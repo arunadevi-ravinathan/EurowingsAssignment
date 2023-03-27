@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.eurowings.testcases.TC001_VerifySearchByRoute_Today">
+        <methods>
+          <include name="postCondition"/>
+          <include name="setValues"/>
+          <include name="endResult"/>
+          <include name="startReport"/>
+          <include name="runSearchByRoute" invocation-numbers="0"/>
+          <include name="preCondition"/>
+          <include name="startTestCase"/>
+        </methods>
+      </class> <!-- com.eurowings.testcases.TC001_VerifySearchByRoute_Today -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 99.529 s <<< FAILURE! - in TestSuite
+runSearchByRoute(com.eurowings.testcases.TC001_VerifySearchByRoute_Today)  Time elapsed: 90.26 s  <<< FAILURE!
+java.lang.RuntimeException: See the reporter for details.
+	at com.eurowings.testcases.TC001_VerifySearchByRoute_Today.runSearchByRoute(TC001_VerifySearchByRoute_Today.java:24)
+

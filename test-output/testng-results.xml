@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-26T20:52:09 IST" name="Suite" finished-at="2023-03-26T20:53:28 IST" duration-ms="78822">
+    <groups>
+    </groups>
+    <test started-at="2023-03-26T20:52:09 IST" name="Test" finished-at="2023-03-26T20:53:28 IST" duration-ms="78822">
+      <class name="com.eurowings.testcases.TC005_VerifyAutoSuggestionforSearchQuery">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.eurowings.testcases.TC005_VerifyAutoSuggestionforSearchQuery@20140db9]" started-at="2023-03-26T20:52:09 IST" name="setValues" finished-at="2023-03-26T20:52:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.eurowings.testcases.TC005_VerifyAutoSuggestionforSearchQuery@20140db9]" started-at="2023-03-26T20:53:12 IST" name="startTestCase" finished-at="2023-03-26T20:53:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.eurowings.testcases.TC005_VerifyAutoSuggestionforSearchQuery@20140db9]" started-at="2023-03-26T20:53:12 IST" name="preCondition" finished-at="2023-03-26T20:53:15 IST" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runSearchByRoute(java.lang.String, java.lang.String)[pri:0, instance:com.eurowings.testcases.TC005_VerifyAutoSuggestionforSearchQuery@20140db9]" started-at="2023-03-26T20:53:15 IST" name="runSearchByRoute" data-provider="fetchData" finished-at="2023-03-26T20:53:28 IST" duration-ms="12763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSearchByRoute -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.eurowings.testcases.TC005_VerifyAutoSuggestionforSearchQuery@20140db9]" started-at="2023-03-26T20:53:28 IST" name="postCondition" finished-at="2023-03-26T20:53:28 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.eurowings.testcases.TC005_VerifyAutoSuggestionforSearchQuery -->
+      <class name="com.eurowings.testcases.TC004_VerifySearchByInvalidRoute">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.eurowings.testcases.TC004_VerifySearchByInvalidRoute@60099951]" started-at="2023-03-26T20:52:09 IST" name="setValues" finished-at="2023-03-26T20:52:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.eurowings.testcases.TC004_VerifySearchByInvalidRoute@60099951]" started-at="2023-03-26T20:52:57 IST" name="startTestCase" finished-at="2023-03-26T20:52:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.eurowings.testcases.TC004_VerifySearchByInvalidRoute@60099951]" started-at="2023-03-26T20:52:57 IST" name="preCondition" finished-at="2023-03-26T20:53:00 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runSearchByRoute(java.lang.String, java.lang.String)[pri:0, instance:com.eurowings.testcases.TC004_VerifySearchByInvalidRoute@60099951]" started-at="2023-03-26T20:53:00 IST" name="runSearchByRoute" data-provider="fetchData" finished-at="2023-03-26T20:53:12 IST" duration-ms="12225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Austria]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSearchByRoute -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.eurowings.testcases.TC004_VerifySearchByInvalidRoute@60099951]" started-at="2023-03-26T20:53:12 IST" name="postCondition" finished-at="2023-03-26T20:53:12 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.eurowings.testcases.TC004_VerifySearchByInvalidRoute -->
+      <class name="com.eurowings.testcases.TC002_VerifySearchByRoute_RelevantResultsDisplayedforToday">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.eurowings.testcases.TC002_VerifySearchByRoute_RelevantResultsDisplayedforToday@6c1a5b54]" started-at="2023-03-26T20:52:09 IST" name="setValues" finished-at="2023-03-26T20:52:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.eurowings.testcases.TC002_VerifySearchByRoute_RelevantResultsDisplayedforToday@6c1a5b54]" started-at="2023-03-26T20:52:26 IST" name="startTestCase" finished-at="2023-03-26T20:52:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.eurowings.testcases.TC002_VerifySearchByRoute_RelevantResultsDisplayedforToday@6c1a5b54]" started-at="2023-03-26T20:52:26 IST" name="preCondition" finished-at="2023-03-26T20:52:29 IST" duration-ms="2731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runSearchByRoute(java.lang.String, java.lang.String)[pri:0, instance:com.eurowings.testcases.TC002_VerifySearchByRoute_RelevantResultsDisplayedforToday@6c1a5b54]" started-at="2023-03-26T20:52:29 IST" name="runSearchByRoute" data-provider="fetchData" finished-at="2023-03-26T20:52:42 IST" duration-ms="12629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSearchByRoute -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.eurowings.testcases.TC002_VerifySearchByRoute_RelevantResultsDisplayedforToday@6c1a5b54]" started-at="2023-03-26T20:52:42 IST" name="postCondition" finished-at="2023-03-26T20:52:42 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.eurowings.testcases.TC002_VerifySearchByRoute_RelevantResultsDisplayedforToday -->
+      <class name="com.eurowings.testcases.TC001_VerifySearchByRoute_Today">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.eurowings.testcases.TC001_VerifySearchByRoute_Today@6574a52c]" started-at="2023-03-26T20:52:09 IST" name="startReport" finished-at="2023-03-26T20:52:09 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.eurowings.testcases.TC001_VerifySearchByRoute_Today@6574a52c]" started-at="2023-03-26T20:52:09 IST" name="setValues" finished-at="2023-03-26T20:52:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.eurowings.testcases.TC001_VerifySearchByRoute_Today@6574a52c]" started-at="2023-03-26T20:52:09 IST" name="startTestCase" finished-at="2023-03-26T20:52:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.eurowings.testcases.TC001_VerifySearchByRoute_Today@6574a52c]" started-at="2023-03-26T20:52:09 IST" name="preCondition" finished-at="2023-03-26T20:52:14 IST" duration-ms="4616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runSearchByRoute(java.lang.String, java.lang.String)[pri:0, instance:com.eurowings.testcases.TC001_VerifySearchByRoute_Today@6574a52c]" started-at="2023-03-26T20:52:14 IST" name="runSearchByRoute" data-provider="fetchData" finished-at="2023-03-26T20:52:26 IST" duration-ms="12122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSearchByRoute -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.eurowings.testcases.TC001_VerifySearchByRoute_Today@6574a52c]" started-at="2023-03-26T20:52:26 IST" name="postCondition" finished-at="2023-03-26T20:52:26 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="endResult()[pri:0, instance:com.eurowings.testcases.TC001_VerifySearchByRoute_Today@6574a52c]" started-at="2023-03-26T20:53:28 IST" name="endResult" finished-at="2023-03-26T20:53:28 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- com.eurowings.testcases.TC001_VerifySearchByRoute_Today -->
+      <class name="com.eurowings.testcases.TC003_VerifySearchByRoute_RelevantResultsDisplayedforTomorrow">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.eurowings.testcases.TC003_VerifySearchByRoute_RelevantResultsDisplayedforTomorrow@1c7696c6]" started-at="2023-03-26T20:52:09 IST" name="setValues" finished-at="2023-03-26T20:52:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.eurowings.testcases.TC003_VerifySearchByRoute_RelevantResultsDisplayedforTomorrow@1c7696c6]" started-at="2023-03-26T20:52:42 IST" name="startTestCase" finished-at="2023-03-26T20:52:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.eurowings.testcases.TC003_VerifySearchByRoute_RelevantResultsDisplayedforTomorrow@1c7696c6]" started-at="2023-03-26T20:52:42 IST" name="preCondition" finished-at="2023-03-26T20:52:45 IST" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runSearchByRoute(java.lang.String, java.lang.String)[pri:0, instance:com.eurowings.testcases.TC003_VerifySearchByRoute_RelevantResultsDisplayedforTomorrow@1c7696c6]" started-at="2023-03-26T20:52:45 IST" name="runSearchByRoute" data-provider="fetchData" finished-at="2023-03-26T20:52:57 IST" duration-ms="12559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSearchByRoute -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.eurowings.testcases.TC003_VerifySearchByRoute_RelevantResultsDisplayedforTomorrow@1c7696c6]" started-at="2023-03-26T20:52:57 IST" name="postCondition" finished-at="2023-03-26T20:52:57 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.eurowings.testcases.TC003_VerifySearchByRoute_RelevantResultsDisplayedforTomorrow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
